@@ -43,7 +43,7 @@ router.post('/', async (req, res) => {
     // log error to database
     console.log(error);
     res.status(500).json({
-      message: 'Cannot add this id',
+      message: 'Sorry cannot add this id',
     });
   }
 });
